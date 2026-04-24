@@ -7,7 +7,7 @@
 
 ## Como abordei o problema
 
-Recebi uma planilha com 413 linhas de oportunidades comerciais com dados anonimizados, baseados na estrutura real de CRM da Monks. O trabalho foi dividido em três etapas:
+Recebi uma planilha com 413 linhas de oportunidades comerciais com dados fictícios, baseados na estrutura de pipeline da Monks. O trabalho foi dividido em três etapas:
 
 ### Etapa 1 — Limpeza dos dados
 Comecei explorando os campos categóricos (Stage, Lead_Source, Lead_Office) e comparando com os valores de referência do case brief. Identifiquei erros de grafia, formatação inconsistente nos valores numéricos e divergências entre o campo Amount e a soma dos produtos (Total_Product_Amount). Cada problema foi registrado em um log e corrigido no código. Também criei a coluna Lead_Source_Category, agrupando os 17 valores brutos de Lead_Source em 6 categorias conforme as instruções do case.
@@ -22,7 +22,7 @@ Selecionei os insights mais relevantes da análise e montei uma apresentação e
 - **Python** — pandas para manipulação e análise dos dados
 - **Google Colab** — ambiente para execução do código
 - **Chart.js** — gráficos interativos no relatório HTML
-- **Claude (Anthropic)** — assistente de IA para estruturação do código, validação da lógica e geração dos relatórios
+- **Claude (IA)** — assistente de IA para estruturação do código, validação da lógica e geração dos relatórios
 
 ---
 
